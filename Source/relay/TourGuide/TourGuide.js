@@ -1160,7 +1160,7 @@ function toggleTileDisplay(toggle_box_id, want_collapsed)
         {
             toggle_box.title = "Expand";
             toggle_box.alt = "Expand";
-            toggle_box.textContent = "▲"; // &#9650;
+            toggle_box.textContent = "►"; // &#9658;
         }
         else
         {

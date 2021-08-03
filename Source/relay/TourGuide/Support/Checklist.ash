@@ -358,8 +358,8 @@ void ChecklistInit()
     PageAddCSSClass("", "r_cl_entry_container:hover .r_cl_entry_content_container.entry_hovered", "display:flex;");
     
     //collapsing feature
-    PageAddCSSClass("button", "r_cl_minimize_button", "background-color:antiquewhite;padding:0px;font-size:11px;height:18px;width:18px;flex-shrink:0;position:relative;z-index:2;color:#7F7F7F;cursor:pointer;");
-    PageAddCSSClass("button", "r_cl_minimize_button:hover", "background-color:black;");
+    PageAddCSSClass("button", "r_cl_minimize_button", "background-color:white;padding:0;font-size:11px;height:0;width:0;color:#999;border-bottom:0;flex-shrink:0;position:relative;right:10px;cursor:pointer;border:none;outline:none;");
+    PageAddCSSClass("button", "r_cl_minimize_button:hover", "color:black;");
     
     if (true)
     {
